@@ -1,4 +1,66 @@
-# Never commit secrets or tokens
+# ====================================
+# 🔐 Secrets & Sensitive Config Files
+# ====================================
 .env
 secrets.env
 tokens.json
+
+# ====================================
+# 🐍 Python Bytecode & Caches
+# ====================================
+__pycache__/
+*.py[cod]
+*.so
+*.egg
+*.egg-info/
+*.pyd
+*.pyo
+*.pdb
+
+# ====================================
+# 🧪 Test & Coverage Output
+# ====================================
+.coverage
+htmlcov/
+.pytest_cache/
+nosetests.xml
+coverage.xml
+*.cover
+.hypothesis/
+
+# ====================================
+# 🔧 VS Code Settings
+# ====================================
+.vscode/
+.history/
+
+# ====================================
+# 🐳 Docker & Shell Stuff (if you use them)
+# ====================================
+*.sh
+*.bash
+*.zsh
+*.swp
+
+# ====================================
+# 📦 Build / Distribution / Installer files
+# ====================================
+build/
+dist/
+*.log
+*.spec
+
+# ====================================
+# 💾 OS-Specific
+# ====================================
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ====================================
+# 📁 Unraid Cache or Temp Files (optional)
+# ====================================
+*.img
+*.nvram
+*.bak
+*.tmp
