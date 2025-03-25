@@ -1,0 +1,4 @@
+# Never commit secrets or tokens
+.env
+secrets.env
+tokens.json
